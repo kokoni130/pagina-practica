@@ -1,0 +1,75 @@
+body{
+    font-family: sans-serif;
+    background: #8ee1e9;  
+}
+
+h2{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+body{
+    background-color: #8ee1e9;    font-family: Arial, Helvetica, sans-serif;
+}
+.centrar{
+    text-align: center;
+}
+
+table{
+    margin: 20px auto 0 auto;
+    text-align: left;
+}
+
+table,th, td{
+    border: 2 px solid rgba (50, 19,187, 0.2);
+}
+table{
+    border-collapse: collapse;
+    width: 500px;
+    text-align: center;
+}
+
+th,td{
+    padding: 10px 20px;
+}
+th{
+    background: #024979;
+    color: white;
+}
+tr:hover{
+    background: #e5e5e5;
+}
+table td:hover{
+    background: #000;
+    color: #fff;
+}
+
+.menu{
+    list-style: none; 
+    text-align: left;
+    padding: 0;
+    background: #024979; 
+    width: 1000%;     
+    margin:20px auto; 
+}
+.menu li a {  /* para ir a enlaces*/
+    color :#fff;
+    text-decoration: none;  /quitamos en enlace línea que aparece en enlace/
+    padding:20px;  /* com son de tipo line */
+    display: block; /* cuando son enlaces se pone block  porque son de tipo en línea*/
+    
+}
+/* se accede a la paseudoclase hover con : */
+.menu li a:hover {
+    background: #d4d3d3;  /* abarca el 100%*/
+
+}
+
+/* queremos que los elemenot li no abarquen el |00%
+y queremos poner uno al lado del otro */
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
